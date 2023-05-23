@@ -57,6 +57,7 @@ navicon9.element.addEventListener('pointerdown', () => {
     scene.add(panorama6);
     panorama6.add(navicon10.main)
     panorama6.add(infoicon6.main)
+    navicon9.reset_size(); 
     console.log("navicon9")
 })
 //dodawanie ikony-obrazek

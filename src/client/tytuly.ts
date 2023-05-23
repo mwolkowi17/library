@@ -1,1 +1,1 @@
-export const tytuly=['Biblioteka','Czytelnia','Sala multimedialna','Sala z regałami z książkami']
+export const tytuly = ['Biblioteka', 'Czytelnia', 'Sala multimedialna', 'Sala z regałami z książkami']

@@ -31,7 +31,6 @@ navicon4.element.addEventListener('pointerdown', () => {
 //event-click ikony nawigacyjnej
 navicon5.element.addEventListener('pointerdown', () => {
     panorama3.remove(navicon4.main);
-    //panorama3.remove(infoicon4.main)
     panorama3.remove(navicon5.main)
     scene.remove(panorama3);
     scene.add(panorama2);
@@ -39,7 +38,6 @@ navicon5.element.addEventListener('pointerdown', () => {
     panorama2.add(navicon3.main)
     panorama2.add(navicon9.main)
     navicon5.reset_size();
-    //panorama2.add(infoicon2.main)
     console.log('nav5')
 })
 

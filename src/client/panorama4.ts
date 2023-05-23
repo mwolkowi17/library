@@ -2,7 +2,7 @@ import { create_icon } from './navigation_icon';
 import { scene } from './client';
 import { panorama_form } from './panorama_create';
 import { create_info_icon } from './info_icon';
-import { panorama3,navicon4,navicon5 } from './panorama3';
+import { panorama3, navicon4, navicon5 } from './panorama3';
 import { invoDivClean } from './info_div_clean';
 import { tytuly } from './tytuly';
 import { teksty } from './teksty';
@@ -14,7 +14,7 @@ export const panorama4 = new panorama_form('./corridor2.png').main;
 panorama4.rotateY(Math.PI)
 
 //dodawanie ikony nawigacyjnej
-export const navicon6 = new create_icon_left(-50,-13,15,'nav6');
+export const navicon6 = new create_icon_left(-50, -13, 15, 'nav6');
 
 
 //event-click ikony nawigacyjnej
@@ -33,7 +33,7 @@ navicon6.element.addEventListener('pointerdown', () => {
 })
 
 //dodawanie ikony nawigacyjnej
-export const navicon7 = new create_icon(-14,-17,15,'nav7');
+export const navicon7 = new create_icon(-14, -17, 15, 'nav7');
 
 //event-click ikony nawigacyjnej
 navicon7.element.addEventListener('pointerdown', () => {
